@@ -1,3 +1,4 @@
+import SideBar from '@/components/SideBar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -19,7 +20,8 @@ export default function RootLayout({
       <head />
       <body>
         <div className='flex'>
-          {/* Sidebar */}
+          {/* SideBar */}
+        <SideBar />
 
           {/* ClientProvider - Notifications */}
 
